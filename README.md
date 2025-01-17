@@ -2,18 +2,18 @@
 
 ![readme-pic.png](readme-pic.png)
 
-- A face recognition & identification program intended to detect & identify faces from pictures that are of size 30x30 pixels using EDSR image super-resolution.
+- This project is a face recognition & identification application designed to detect & identify faces from pictures that are of size 30x30 pixels.
+- It is built on Jupyter Notebook, and super-resolution libraries (EDSR image super-resolution).
 - Achieved accuracy of at least 90% on samples across 30 distinct faces. 
-
-- All faces have been taken from the LFW3D face samples, real-life faces are used as well
-  - Take note that some personal info (especially the real-life faces) have been redacted from the samples & documentation.
+- All faces have been taken from the LFW3D face samples and real-life faces (redacted personal information)
 
 ## Technologies Used
 
-- Python
-- OpenCV
-- EDSR (Enhanced Deep Residual Networks) image super-resolution
-- Bicubic & nearest neighbor scaling
+- Programming Language: Python
+- Technologies:
+  - OpenCV
+  - EDSR (Enhanced Deep Residual Networks) image super-resolution supplied internally by OpenCV
+  - Bicubic & nearest-neighbor scaling (for comparison purpose)
 
 ## Installation
 
@@ -22,6 +22,18 @@
 - Install relevant libraries
 - Select the version to run (for KNN model, use the `knn-version`; for SVM model, use the `svm-version`)
 - Open the relevant `.ipynb` notebook in the folder in sequence
+
+## Project Details
+
+### System Flowchart
+
+#### Step 1: Build face encodings (dataset training)
+
+![Step 1: Face Encodings (Building dataset) flowchart](./img/face-encodings-flowchart.png)
+
+#### Step 2: Perform face identification
+
+![Step 2: Face Identification flowchart](./img/face-encodings-flowchart.png)
 
 ## Credits
 
