@@ -39,6 +39,10 @@
 
 ![Step 2: Face Identification flowchart](./img/face-encodings-flowchart.png)
 
+## Further Reading
+
+[Documentation of Background Study, Tool Selection, Methodology, and Results](./Documentation%20-%20Face%20Recognition%20&%20Identification%20Low%20Res.docx)
+
 ## Credits
 
 - LFW3D for the faces supplied
