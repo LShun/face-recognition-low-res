@@ -24,7 +24,7 @@
 - Download the repository and unzip it
 - Install Anaconda Python IDE
 - Install relevant libraries
-- Select the version to run (for KNN model, use the `knn-version`; for SVM model, use the `svm-version`)
+- Select the version to run (for KNN model, use the [`knn-version`](./knn-version/); for SVM model, use the [`svm-version`](./svm-version/))
 - Open the relevant `.ipynb` notebook in the folder in sequence
 
 ## Project Details
