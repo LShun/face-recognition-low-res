@@ -14,6 +14,10 @@
   - OpenCV
   - EDSR (Enhanced Deep Residual Networks) image super-resolution supplied internally by OpenCV
   - Bicubic & nearest-neighbor scaling (for comparison purpose)
+  - Face Recognition: History of Gradients (HOG) and Convolutional Neural Networks (CNN).
+    - By default, HOG is used because it is faster (especially on CPU), but at an expense of accuracy.
+  - Face Identification: K-Nearest Neighbors (KNN) and Support-Vector Machine (SVM).
+    - By default, KNN is used due to the slightly higher performance in testing.
 
 ## Installation
 
